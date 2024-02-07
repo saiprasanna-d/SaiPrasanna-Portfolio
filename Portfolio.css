@@ -1,0 +1,342 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.bg-container{
+    background: linear-gradient(to bottom, #000435 0%, rgb(54, 62, 127) 100%, #000435 0%);
+    background-size: cover;
+    height: 45rem;
+    background-attachment: fixed;
+}
+.navbar
+{
+    overflow: auto;
+    background:linear-gradient(to bottom, #3e55d3 5%,#000435 100%, #000435 5%)  ;
+    z-index: 1;
+    width:100%;
+    padding: 20px;
+    margin: 0px 0px 5% 0px;
+} 
+.navbar ul{
+    text-decoration: none;
+    margin:0px 0px 0px 50%;
+    font-size: 18px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar ul li a{
+    color:#fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-block-start: auto;
+    font-family: 'poppins', sans-serif;
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+    font-size: 22px;
+}
+.navbar ul li a.active
+{
+    color: aqua;
+    font-size: 18px;
+    animation-duration: 3s;
+}
+.logo{
+    position: absolute;
+    height:50px;
+    width: 50px;
+    border-radius: 50px;
+    margin:1% 0px 0px 3%;
+}
+#HomePage
+{
+    margin:0px 0px 6% 0px;
+    float: left;
+}
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+.bg-img{
+    background-image: url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette_1258-48251.jpg?w=900&t=st=1706604415~exp=1706605015~hmac=6813e5683a6c13f20283ed1001a1f12f755ce5bd0df3d49c055e1d25f6b26de5);
+    border-image: fill 0 linear-gradient(#0001, #000);
+    opacity: 0.9;
+    width:1000px;
+    height:500px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    filter: drop-shadow(20px 20px 2px #000435) ;
+}
+.hello
+{
+    padding-top: 60px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    padding-left: 4%;
+    letter-spacing: 1.2px;
+    line-height: 1.5;
+}
+
+.typing{
+    color: #ff00c3;
+    font-weight: 700;
+    filter: drop-shadow(5px 5px 10px #ff00c3);
+    border-right: 0.1rem solid transparent;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing steps(21) forwards infinite 4s;
+    padding-left: 4%;
+    background-color: transparent;
+}
+@keyframes typing{
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 50%;
+    }
+}
+.home-para p
+{
+    padding-top: 3%;
+    font-size: 16px;
+    padding-right: 40%;
+    font-weight: 600;
+    padding-left: 4%;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+.button
+{
+    margin-left: 4%;
+    height: 40px;
+    width:115px;
+    font-size: 18px;
+    font-weight: 600;
+    border-width: 1px;
+    border-color: #fff;
+    background-color:transparent;
+    color:white;
+    margin-top: 4%;
+    outline: 2px solid;
+}
+a button:hover
+{
+    color:#ff00c3;
+    border-color: #ff00c3;
+    background-color: #fff;
+    border-width: 1px;
+    box-shadow: 0px 0px 80px 0px pink;
+}
+.home-img
+{
+    float: right;
+    width:300px;
+    height: 280px;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+.frt-img1{
+    display: flex;
+    gap: 25px;
+}
+.education-img {
+    padding: 30px;
+}
+.education-img img
+{
+    width: 200px;
+    height:160px;
+    margin: 5% 20px 0px 6%;
+    border-radius: 30px;
+    border: 1px solid;
+    transform: scale(1.2);
+    box-shadow: 13px 11px 6px black;
+}
+.img-cnt p{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: .1px;
+}
+.img-cnt 
+{
+    max-width: 59%;
+    padding-top:58px;
+}
+.snd-img2 {
+    display: flex;
+    margin-top: 42px;
+    flex-direction: row-reverse;
+}
+.family-img {
+    padding: 0px 138px 0px 22px;
+}
+.family-img img
+{
+    width: 200px;
+    height:160px;
+    margin: 5% 6% 0px 20px;
+    border-radius: 30px;
+    transform: scale(1.2);
+    box-shadow: 13px 11px 6px black;
+}
+.family-content 
+{
+    max-width:59%;
+    padding: 48px 0px;
+}
+.family-content p 
+{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: .1px;
+}
+.skills-margin
+{
+    margin-top:2%;
+    display: flex;
+}
+.skills-mtimg
+{
+    width:80px;
+    height:50px;
+    border-radius: 30px;
+    float: left;
+    margin: 8% 3% 5px 14%;
+}
+.skills-img1{
+    width:80px;
+    height:50px;
+    border-radius: 30px;
+    float: left;
+    margin-right: 3%;
+    margin-left: 14%;
+    margin-bottom: 5px;
+}
+.skills-jsimg
+{
+    width:80px;
+    height:50px;
+    border-radius: 30px;
+    float: left;
+    margin-right: 3%;
+    margin-left: 24%;
+    margin-bottom: 5px;
+}
+.skills-sqlimg
+{
+    width:80px;
+    height:50px;
+    border-radius: 30px;
+    float: left;
+    margin-right: 3%;
+    margin-left: 20%;
+    margin-bottom: 5px;
+}
+.skills-margin p{
+    background: linear-gradient(137deg, #00ffff, #ff00c3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 22px;
+    font-weight: 700;
+}
+.mt-content{
+    padding-top: 90px;
+    position: relative;
+    padding-bottom: 16px;
+}    
+.skills-content
+{
+    color:#fff;
+    font-size: 20px;
+    padding-top: 16px;
+    position: relative;
+    padding-bottom: 16px;
+}
+.certification-margin
+{
+    margin-left: 10%;
+}
+img.certificates
+{
+    height:180px;
+    width: 260px;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+img.certificates:hover{
+    animation:pulse 1.5s infinite;
+}
+@keyframes pulse{
+    0%{
+        transform:scale(1);
+    }
+    100%{
+        transform:scale(1.5);
+    }
+}
+.contact-para1
+{
+    color: #f4f0eb;
+    font-size: 20px;
+     padding-left: 8%;
+    padding-right: 17%;
+    text-align: left;
+    padding-top: 12%;
+}
+.icons
+{
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+.linkedin{
+    display: flex;
+    justify-content: center;
+    margin-right: 8%;
+}
+.icon-name{
+    font-size: 18px;
+    padding: 18px 0px 0px 5px;
+    color: #fff;
+}
+.icon1
+{
+    width:60px;
+    height:50px;
+    margin-right:40%;
+}
+.icon2
+{
+    width:60px;
+    height:50px;
+    margin-right:40%;
+}
+.email{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    margin: 0px 28% 0px 23%;
+}
+.thankyou{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 3%;
+}
